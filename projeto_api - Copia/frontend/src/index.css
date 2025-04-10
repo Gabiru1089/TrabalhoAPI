@@ -1,0 +1,52 @@
+/* Reset básico e box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da página com background cinza claro */
+body {
+  font-family: Arial, sans-serif;
+  background-color: gray; 
+  color: #000000;            
+  text-align: left;
+  line-height: 1.6;
+}
+
+/* Links: sem sublinhado e com cor herdada */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Estilos básicos para tabelas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #cccccc;  
+  text-align: left;
+}
+
+/* Inputs e botões herdam a fonte definida */
+input, button {
+  font-family: inherit;
+}
+
+/* Mensagens de erro e sucesso */
+.error {
+  color: #ffdddd; 
+  margin-bottom: 10px;
+}
+
+.success {
+  color: #ddffdd;
+  margin-bottom: 10px;
+}
+
+
+
